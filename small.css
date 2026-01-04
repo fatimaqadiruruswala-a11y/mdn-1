@@ -1,0 +1,45 @@
+@media screen and (max-width: 576px){
+    body{
+        padding: 10px;
+    }
+    .header-inner{
+        padding: 8px 12px;
+    }
+    .menu{
+        gap: 5px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu-link{
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+    .dropdown{
+        min-width: 200px;
+        padding: 8px;
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        box-shadow: none;
+        border: none;
+        background: transparent;
+    }
+    .left-sidebar, .right-sidebar{
+        padding: 15px;
+    }
+    .side-left-con, .how-to, .side-right-con{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .main-content{
+        padding: 10px;
+        gap: 10px;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+}

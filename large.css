@@ -1,0 +1,41 @@
+@media screen and (max-width: 1000px){
+      
+    .main-content{
+        height: auto;
+        flex-direction: column;
+    }
+    .left-sidebar,.right-sidebar{
+        height: auto;
+        width: 100%;
+        margin: 10px 0;
+    
+    }
+} 
+@media screen and (max-width: 1200px){
+      
+    .main-content{
+        height: auto;
+    }
+    .left-sidebar,.right-sidebar{
+        height: auto;
+        width: 40%;
+        float: none;
+        margin: 10px auto;
+        position: relative;
+    
+    }
+}
+@media screen and (max-width: 1400px){
+      
+    .main-content{
+        height: auto;
+    }
+    .left-sidebar,.right-sidebar{
+        height: auto;
+        width: 30%;
+        float: none;
+        margin: 10px auto;
+        position: relative;
+    
+    }
+}
